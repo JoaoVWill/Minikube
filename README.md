@@ -1,4 +1,9 @@
-# [PROJETO]
-Reposítorio referente a documentação [PROJETO] 
+# MINIKUBE
+#### Reposotório com passo-a-passo de uma Instalação de um *Minikube (Debian_VM)*
 
-Infomações:
+### Infomações:
+
+- [x] Instalar Minikube em nova VM
+- [ ] Configurar e rodar o Minikube
+- [ ] Instalar uma imagem de uma aplicação
+- [ ] Ver o Resultado da Aplicação
