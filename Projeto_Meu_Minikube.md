@@ -33,10 +33,28 @@ adduser [USER] libvirt
 ```
 ![image](https://user-images.githubusercontent.com/61891017/196177503-7f9e39b2-1a34-4cea-93ca-033bb9f61e11.png)
 
-5. Iniciar o MInikube
+5. Iniciar o Minikube
 ```ruby
 minikube start
 ```
 ![image](https://user-images.githubusercontent.com/61891017/196177661-0c14185d-9564-4ee5-b76f-1da1bb0c81f8.png)
 
-6. 
+6. Instalar o Kubectl
+```ruby
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+```
+![image](https://media.discordapp.net/attachments/894908748684992523/1042786772221968476/image.png)
+
+7. Copiar o arquivo do **Kubectl** para a pasta `usr/bin` (Com um super usuário)
+```ruby
+cp /home/joao/kubectl /usr/bin
+```
+![image](https://user-images.githubusercontent.com/61891017/202454510-08f4540f-4a23-4ab9-baf0-e5b27c8553da.png)
+
+8. De permissão de *executável* ao arquivo do Kubectl 
+```ruby
+chmod +x /usr/bin/kubectl
+```
+![image](https://user-images.githubusercontent.com/61891017/202455430-1cb389d9-c727-4c88-a470-e625f8b2ae40.png)
+
+9. 
